@@ -9,7 +9,7 @@ import os
 # Correct file path (guaranteed)
 file_path = os.path.join(os.path.dirname(__file__), 'traffic.csv')
 
-df = load_data('traffic.csv')
+df = load_data('src/traffic.csv')
 df = preprocess(df)
 
 print("Columns:", df.columns)
