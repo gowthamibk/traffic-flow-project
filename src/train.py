@@ -6,7 +6,7 @@ import joblib
 import matplotlib.pyplot as plt
 
 # Load data
-df = load_data('traffic.csv')
+df = load_data('src/traffic.csv')
 
 # Clean data
 df = preprocess(df)
