@@ -31,7 +31,7 @@ pred = model.predict(X_test)
 print("MSE:", mean_squared_error(y_test, pred))
 
 # Save model
-joblib.dump(model, '../model.pkl')
+joblib.dump(model, 'model.pkl')
 
 # Graph
 plt.plot(y_test.values, label='Actual')
